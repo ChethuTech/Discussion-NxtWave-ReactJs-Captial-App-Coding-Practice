@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capital-card {
+  width: 95vw;
+  max-width: 800px;
+  background-color: #f8fafc;
+  padding: 4vw;
+  border-radius: 15px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 4vh;
+  margin: 2vh 0px;
+}
+
+.select-container {
+  margin: 25px 0px;
+  display: flex;
+  align-items: center;
+}
+.select {
+  font-family: 'Roboto';
+  font-size: 2vh;
+  font-weight: bold;
+  color: #000000;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.label {
+  color: #1e293b;
+}
+.country {
+  font-family: 'Roboto';
+  font-size: 3vh;
+  font-weight: bold;
+  color: #000000;
+  margin: 2vh 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .capital-card {
+    padding: 20px 20px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .select {
+    font-size: 20px;
+  }
+  .country {
+    font-size: 26px;
+  }
+}
